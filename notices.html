@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The notices</title>
+  <link rel="stylesheet" href="notices.css">
+</head>
+<body>
+
+  <header>
+    <h1>Kharian</h1>
+  </header>
+
+  <p id="status">Touch a notice to make it current.</p>
+
+  <div id="wall">
+    <div class="row">
+      <p class="notice"><span>Welcome</span></p>
+      <p class="notice"><span>Hours</span></p>
+      <p class="notice"><span>Fire</span></p>
+    </div>
+    <div class="row">
+      <p class="notice"><span>Rules</span></p>
+      <p class="notice"><span>Map</span></p>
+      <p class="notice"><span>Close</span></p>
+    </div>
+  </div>
+
+  <div id="controls">
+    <button type="button" id="up">Up</button>
+    <button type="button" id="down">Down</button>
+    <button type="button" id="left">Left</button>
+    <button type="button" id="right">Right</button>
+    <br>
+    <input type="text" id="spot">
+    <button type="button" id="move">Move</button>
+  </div>
+
+  <p>Fire is at position <span id="fire-at">3</span></p>
+
+  <footer>
+    <p>Roll: 247265</p>
+  </footer>
+
+  <script src="notices.js"></script>
+</body>
+</html>
